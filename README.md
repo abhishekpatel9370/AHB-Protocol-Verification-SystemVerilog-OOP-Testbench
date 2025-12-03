@@ -48,7 +48,7 @@ AHB-PROTOCOL-VERIFICATION/
 │
 └── waves/
     └── waveform.png
-```text
+```
 
 ## 🧪 Verification Architecture
 
@@ -149,7 +149,7 @@ Stops when generator finishes
 [DRV] : SINGLE READ TRANSFER ADDR : 5
 [MON] : SINGLE TRANSFER READ addr : 5 data : 12
 [SCO] : DATA MATCHED
-
+```
 🛠 Tools Used
 
 SystemVerilog
@@ -167,6 +167,7 @@ Error response (SPLIT, RETRY, ERROR) verification
 Random back-pressure (HREADY low cycles)
 
 Full UVM migration
+
 
 👤 Author
 
