@@ -46,3 +46,85 @@ AHB-PROTOCOL-VERIFICATION/
 └── waves/
 └── waveform.png 
 
+
+
+---
+
+## 🧪 Verification Architecture
+
+### 🔹 **Transaction**
+Encapsulates:
+- Address  
+- Data  
+- Size  
+- Burst type  
+- Write/Read  
+- Unspecified-length count  
+
+Includes `copy()` for mailbox transfer.
+
+---
+
+### 🔹 **Generator**
+- Randomizes transactions  
+- Sends them to driver through `mailbox #(transaction)`  
+- Uses handshake events:
+  - `drvnext` – driver completed  
+  - `sconext` – scoreboard completed  
+- `count` decides how many transactions to run
+
+---
+
+### 🔹 **Driver**
+Implements AHB protocol:
+- Drives all AHB signals  
+- Handles:
+  - SINGLE  
+  - INCR 4/8/16  
+  - WRAP 4/8/16  
+  - UNSPECIFIED LENGTH  
+- Waits for handshake using `@(posedge hready)`  
+- Generates reset sequence
+
+---
+
+### 🔹 **Monitor**
+Passive checker that samples interface:
+- Captures address + data  
+- Sends to scoreboard  
+- Extracts `next_addr` from slave for wrap/incr validation
+
+---
+
+### 🔹 **Scoreboard**
+Implements a reference memory model:
+- For write: updates model  
+- For read: compares expected data with DUT output  
+- Reports:
+  - ✅ DATA MATCHED  
+  - ❌ DATA MISMATCHED  
+  - ⚠ EMPTY LOCATION READ  
+
+---
+
+### 🔹 **Agent**
+Combines:
+- Generator  
+- Driver  
+- Monitor  
+Connects:
+- Mailboxes  
+- Virtual interface  
+- Synchronization events  
+
+---
+
+### 🔹 **Environment**
+Top-level verification block.  
+Instantiates:
+- Agent  
+- Scoreboard  
+
+Runs both in parallel with:
+```systemverilog
+env.run();
