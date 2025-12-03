@@ -101,9 +101,9 @@ Implements a reference memory model:
 - For write: updates model  
 - For read: compares expected data with DUT output  
 - Reports:
-  - ✅ DATA MATCHED  
-  - ❌ DATA MISMATCHED  
-  - ⚠ EMPTY LOCATION READ  
+  -  DATA MATCHED  
+  -  DATA MISMATCHED  
+  -  EMPTY LOCATION READ  
 
 ---
 
@@ -172,4 +172,4 @@ Full UVM migration
 
 Abhishek Patel
 VLSI | RTL | Verification
-LinkedIn Profile
+LinkedIn Profile:https://www.linkedin.com/in/abhishek-patel-6b5428266/
