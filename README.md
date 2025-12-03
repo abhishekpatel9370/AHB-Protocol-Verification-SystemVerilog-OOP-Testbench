@@ -31,24 +31,23 @@ It demonstrates constrained-random stimulus generation, functional checking, mai
 AHB-PROTOCOL-VERIFICATION/
 │
 ├── rtl/
-│ └── ahb_slave.sv
+│   └── ahb_slave.sv
 │
 ├── tb/
-│ ├── ahb_if.sv
-│ ├── transaction.sv
-│ ├── generator.sv
-│ ├── driver.sv
-│ ├── monitor.sv
-│ ├── scoreboard.sv
-│ ├── agent.sv
-│ ├── environment.sv
-│ └── tb.sv
+│   ├── ahb_if.sv
+│   ├── transaction.sv
+│   ├── generator.sv
+│   ├── driver.sv
+│   ├── monitor.sv
+│   ├── scoreboard.sv
+│   ├── agent.sv
+│   ├── environment.sv
+│   └── tb.sv
 │
 └── waves/
-└── waveform.png
+    └── waveform.png
 
-yaml
-Copy code
+
 
 
 ---
