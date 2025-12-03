@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_ahb_if_sv_1100924522 " />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="629.395 ns"></ZoomEndTime>
+      <Cursor1Time time="192.738 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="75" />
+   <wvobject fp_name="/tb/vif/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vif/hwdata" type="array">
+      <obj_property name="ElementShortName">hwdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hwdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vif/haddr" type="array">
+      <obj_property name="ElementShortName">haddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">haddr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vif/hsize" type="array">
+      <obj_property name="ElementShortName">hsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hsize[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vif/hburst" type="array">
+      <obj_property name="ElementShortName">hburst[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hburst[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vif/hresetn" type="logic">
+      <obj_property name="ElementShortName">hresetn</obj_property>
+      <obj_property name="ObjectShortName">hresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vif/hsel" type="logic">
+      <obj_property name="ElementShortName">hsel</obj_property>
+      <obj_property name="ObjectShortName">hsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vif/hwrite" type="logic">
+      <obj_property name="ElementShortName">hwrite</obj_property>
+      <obj_property name="ObjectShortName">hwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vif/htrans" type="array">
+      <obj_property name="ElementShortName">htrans[1:0]</obj_property>
+      <obj_property name="ObjectShortName">htrans[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vif/hresp" type="array">
+      <obj_property name="ElementShortName">hresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">hresp[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vif/hready" type="logic">
+      <obj_property name="ElementShortName">hready</obj_property>
+      <obj_property name="ObjectShortName">hready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vif/hrdata" type="array">
+      <obj_property name="ElementShortName">hrdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hrdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vif/next_addr" type="array">
+      <obj_property name="ElementShortName">next_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/hwdata" type="array">
+      <obj_property name="ElementShortName">hwdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hwdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/haddr" type="array">
+      <obj_property name="ElementShortName">haddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">haddr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/hsize" type="array">
+      <obj_property name="ElementShortName">hsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hsize[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/hburst" type="array">
+      <obj_property name="ElementShortName">hburst[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hburst[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/hresetn" type="logic">
+      <obj_property name="ElementShortName">hresetn</obj_property>
+      <obj_property name="ObjectShortName">hresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/hsel" type="logic">
+      <obj_property name="ElementShortName">hsel</obj_property>
+      <obj_property name="ObjectShortName">hsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/hwrite" type="logic">
+      <obj_property name="ElementShortName">hwrite</obj_property>
+      <obj_property name="ObjectShortName">hwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/htrans" type="array">
+      <obj_property name="ElementShortName">htrans[1:0]</obj_property>
+      <obj_property name="ObjectShortName">htrans[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/hresp" type="array">
+      <obj_property name="ElementShortName">hresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">hresp[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/hready" type="logic">
+      <obj_property name="ElementShortName">hready</obj_property>
+      <obj_property name="ObjectShortName">hready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/hrdata" type="array">
+      <obj_property name="ElementShortName">hrdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hrdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:255][7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:255][7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/state" type="array">
+      <obj_property name="ElementShortName">state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">state[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/len_count" type="array">
+      <obj_property name="ElementShortName">len_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">len_count[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/first" type="logic">
+      <obj_property name="ElementShortName">first</obj_property>
+      <obj_property name="ObjectShortName">first</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/retaddr" type="array">
+      <obj_property name="ElementShortName">retaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">retaddr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/next_addr" type="array">
+      <obj_property name="ElementShortName">next_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wboundary" type="array">
+      <obj_property name="ElementShortName">wboundary[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wboundary[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/single_tr/single_tr" type="array">
+      <obj_property name="ElementShortName">single_tr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">single_tr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/single_tr/addr" type="array">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/single_tr/hsize" type="array">
+      <obj_property name="ElementShortName">hsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hsize[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/unincr_wr/unincr_wr" type="array">
+      <obj_property name="ElementShortName">unincr_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">unincr_wr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/unincr_wr/addr" type="array">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/unincr_wr/hsize" type="array">
+      <obj_property name="ElementShortName">hsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hsize[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/unincr_wr/raddr" type="array">
+      <obj_property name="ElementShortName">raddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/boundary/boundary" type="array">
+      <obj_property name="ElementShortName">boundary[7:0]</obj_property>
+      <obj_property name="ObjectShortName">boundary[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/boundary/hburst" type="array">
+      <obj_property name="ElementShortName">hburst[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hburst[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/boundary/hsize" type="array">
+      <obj_property name="ElementShortName">hsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hsize[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/boundary/temp" type="array">
+      <obj_property name="ElementShortName">temp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_wr/wrap_wr" type="array">
+      <obj_property name="ElementShortName">wrap_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wrap_wr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_wr/addr" type="array">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_wr/boundary" type="array">
+      <obj_property name="ElementShortName">boundary[7:0]</obj_property>
+      <obj_property name="ObjectShortName">boundary[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_wr/hsize" type="array">
+      <obj_property name="ElementShortName">hsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hsize[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_wr/addr1" type="array">
+      <obj_property name="ElementShortName">addr1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_wr/addr2" type="array">
+      <obj_property name="ElementShortName">addr2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_wr/addr3" type="array">
+      <obj_property name="ElementShortName">addr3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr3[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_wr/addr4" type="array">
+      <obj_property name="ElementShortName">addr4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr4[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/incr_wr/incr_wr" type="array">
+      <obj_property name="ElementShortName">incr_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">incr_wr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/incr_wr/addr" type="array">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/incr_wr/hsize" type="array">
+      <obj_property name="ElementShortName">hsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hsize[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/incr_wr/raddr" type="array">
+      <obj_property name="ElementShortName">raddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/single_tr_rd/single_tr_rd" type="array">
+      <obj_property name="ElementShortName">single_tr_rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">single_tr_rd[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/single_tr_rd/addr" type="array">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/single_tr_rd/hsize" type="array">
+      <obj_property name="ElementShortName">hsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hsize[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/unincr_rd/unincr_rd" type="array">
+      <obj_property name="ElementShortName">unincr_rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">unincr_rd[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/unincr_rd/addr" type="array">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/unincr_rd/hsize" type="array">
+      <obj_property name="ElementShortName">hsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hsize[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/unincr_rd/raddr" type="array">
+      <obj_property name="ElementShortName">raddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_rd/wrap_rd" type="array">
+      <obj_property name="ElementShortName">wrap_rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wrap_rd[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_rd/addr" type="array">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_rd/boundary" type="array">
+      <obj_property name="ElementShortName">boundary[7:0]</obj_property>
+      <obj_property name="ObjectShortName">boundary[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_rd/hsize" type="array">
+      <obj_property name="ElementShortName">hsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hsize[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_rd/addr1" type="array">
+      <obj_property name="ElementShortName">addr1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_rd/addr2" type="array">
+      <obj_property name="ElementShortName">addr2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_rd/addr3" type="array">
+      <obj_property name="ElementShortName">addr3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr3[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wrap_rd/addr4" type="array">
+      <obj_property name="ElementShortName">addr4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr4[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/incr_rd/incr_rd" type="array">
+      <obj_property name="ElementShortName">incr_rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">incr_rd[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/incr_rd/addr" type="array">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/incr_rd/hsize" type="array">
+      <obj_property name="ElementShortName">hsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hsize[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/incr_rd/raddr" type="array">
+      <obj_property name="ElementShortName">raddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
