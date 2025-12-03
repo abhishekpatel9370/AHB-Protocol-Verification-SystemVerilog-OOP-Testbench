@@ -128,3 +128,48 @@ Instantiates:
 Runs both in parallel with:
 ```systemverilog
 env.run();
+
+Testbench (tb.sv)
+
+Creates interface & DUT
+
+Creates environment
+
+Drives clock
+
+Runs verification automatically
+
+Stops when generator finishes
+
+▶ Sample Output Log
+[DRV] : WRAP8 TRANSFER ADDR : 12 DATA : 5
+[MON] : addr : 5 data : 12
+[SCO] : DATA WRITE
+
+[DRV] : SINGLE READ TRANSFER ADDR : 5
+[MON] : SINGLE TRANSFER READ addr : 5 data : 12
+[SCO] : DATA MATCHED
+
+🛠 Tools Used
+
+SystemVerilog
+
+Vivado XSIM (2023/2024/2025 versions compatible)
+
+Object-Oriented Testbench Architecture
+
+📌 Future Improvements
+
+Functional coverage
+
+Error response (SPLIT, RETRY, ERROR) verification
+
+Random back-pressure (HREADY low cycles)
+
+Full UVM migration
+
+👤 Author
+
+Abhishek Patel
+VLSI | RTL | Verification
+LinkedIn Profile
