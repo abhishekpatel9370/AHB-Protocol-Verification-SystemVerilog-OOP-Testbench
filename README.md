@@ -48,7 +48,7 @@ AHB-PROTOCOL-VERIFICATION/
 │
 └── waves/
     └── waveform.png
-
+```
 
 ## 🧪 Verification Architecture
 
