@@ -172,5 +172,5 @@ Full UVM migration
 👤 Author
 
 Abhishek Patel
-VLSI | RTL | Verification
+VLSI | RTL | Verification enthusiast
 LinkedIn Profile:https://www.linkedin.com/in/abhishek-patel-6b5428266/
