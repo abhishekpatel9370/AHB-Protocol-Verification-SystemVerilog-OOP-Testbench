@@ -27,4 +27,22 @@ It demonstrates constrained-random stimulus generation, functional checking, mai
 ---
 
 ## 📂 Project Structure
+AHB-PROTOCOL-VERIFICATION/
+│
+├── rtl/
+│ └── ahb_slave.sv
+│
+├── tb/
+│ ├── ahb_if.sv
+│ ├── transaction.sv
+│ ├── generator.sv
+│ ├── driver.sv
+│ ├── monitor.sv
+│ ├── scoreboard.sv
+│ ├── agent.sv
+│ ├── environment.sv
+│ └── tb.sv
+│
+└── waves/
+└── waveform.png 
 
