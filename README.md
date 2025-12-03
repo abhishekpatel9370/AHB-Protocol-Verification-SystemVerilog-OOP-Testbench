@@ -27,6 +27,7 @@ It demonstrates constrained-random stimulus generation, functional checking, mai
 ---
 
 ## 📂 Project Structure
+
 AHB-PROTOCOL-VERIFICATION/
 │
 ├── rtl/
@@ -44,8 +45,10 @@ AHB-PROTOCOL-VERIFICATION/
 │ └── tb.sv
 │
 └── waves/
-└── waveform.png 
+└── waveform.png
 
+yaml
+Copy code
 
 
 ---
